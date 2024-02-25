@@ -34,7 +34,7 @@ int main() {
         cout << "Enter the width if the rectangle: ";
         cin >> width;
 
-    if ((length > 0 ) || (width > 0 ))
+    if ((length > 0 ) && (width > 0 ))
         cout<< "Invalid input. ;height and width cannot be negative." <<endl;
 
         area = length * width; //calculate area of rectangle
